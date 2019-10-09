@@ -5,3 +5,13 @@ body{
 .output{
 	font-weight: bold;
 }
+
+.titel{
+	font-weight: bold;
+}
+.read{
+	background-color: lightgreen;
+}
+.nonread{
+	background-color: lightgray;
+}

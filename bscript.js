@@ -13,7 +13,7 @@ var testobejt = "My favorite burger is a "
 
 document.getElementById("output1").innerHTML = testobejt;
 
-// ---------------------------------------------------------------------------------------------
+// -----------------------------------------Intermediate----------------------------------------------------
 
 var jsonOb = [
 		{
@@ -100,11 +100,6 @@ var jsonOb = [
 
 	];
 					
-
-// Test
-
-document.getElementById("output2").innerHTML = jsonOb[1];
-
 for (var i=0; i < jsonOb.length; i++){
 var objekt = jsonOb[i];
 var table = document.getElementById("ausgabe");
@@ -125,4 +120,36 @@ zelle6.innerHTML = objekt.salary;
 
 }
 
+//--------------------------------------------------Advanced------------------------------------------------------------
+	//Testausgabe:
+	//document.getElementById("output3").innerHTML = booksJson[1].summary;
 
+
+for (var i=1; i < booksJson.length; i++){
+
+	if (booksJson[i].read == true){
+		reader = "read";
+	}else{
+		reader = "nonread";
+	}
+
+
+	let book = document.createElement("div");
+		book.id = "bookId"+i;
+		book.className = reader;
+		document.getElementById("books").appendChild(book);
+
+		let title = document.createElement("p");
+			title.textContent = booksJson[i].title;
+			title.className = "titel";
+			document.getElementById("bookId"+i).appendChild(title);
+		let autor = document.createElement("p")
+			autor.textContent = booksJson[i].author;
+			autor.className = "autor";
+			document.getElementById("bookId"+i).appendChild(autor);
+		let bookpic = document.createElement("img");
+			bookpic.id = "bookpic"+i;
+			bookpic.src = "./books/"+booksJson[i].picurl;
+			document.getElementById("bookId"+i).appendChild(bookpic);
+
+}

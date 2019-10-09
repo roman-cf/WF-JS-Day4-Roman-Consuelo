@@ -1,0 +1,37 @@
+var booksJson = [{
+	"title": "book title",
+	"subtitle" : "subtitle",
+	"author": "author",
+	"read": "already read",
+	"summary": "short summary",
+	"picurl" : "pic"
+},
+{
+	"title": "Java ist auch eine Insel",
+	"subtitle" : "Java programmieren lernen mit dem Standardwerk für Java-Entwickler.",
+	"author": "Christian Ullenboom",
+	"read": true,
+	"summary": "Unser Handbuch ist die erste Wahl, wenn es um aktuelles und praktisches Java-Wissen geht. Java-Einsteiger, Studenten und Umsteiger profitieren seit mehr als einem Jahrzehnt von diesem Lehrwerk. Neben der Behandlung der Sprachgrundlagen von Java gibt es kompakte Einführungen in Spezialthemen. So erfahren Sie einiges über Threads, Algorithmen, GUIs, XML und Java. Dieses Buch gehört in das Regal eines jeden Java-Programmierers.",
+	"picurl": "51sv3JZ1zEL._SX476_BO1,204,203,200_.jpg"
+},
+{
+	"title": "HTML5 und CSS3",
+	"subtitle" : "Start ohne Vorwissen - mit umfangeichen Download Material",
+	"author": "Christian Wenz",
+	"read": false,
+	"summary": "Dieses Buch ermöglicht Ihnen den perfekten Einstieg in HTML5 und CSS3. Die erfahrenen Autoren Christian Wenz und Christoph Prevezanos zeigen Ihnen von Grund auf, ohne Kenntnisse vorauszusetzen, wie HTML funktioniert. Sie führen Sie zunächst in die Grundlagen von HTML ein und erklären dann anschaulich und leicht verständlich die neusten Techniken.",
+	"picurl" : "5134vSR6+1L._SX352_BO1,204,203,200_.jpg"	
+},
+{
+	"title": "PHP und MySQL",
+	"subtitle" : "für Einsteiger: Dynamische Webseiten durch PHP 7, SQL und Objektorientierte Programmierung",
+	"author": "Michael Bonacina",
+	"read": false,
+	"summary": "PHP ist eine der wichtigsten serverseitigen Webprogrammiersprachen und in Kombination mit dem Datenbanksystem MySQL und der Datenbanksprache SQL eine einfach zu erlernende aber auch sehr leistungsfähige Programmiersprache, um dynamische Webseiten zu erstellen.",
+	"picurl" : "51q3rdL3sAL._SX322_BO1,204,203,200_.jpg"
+},
+
+
+
+
+]
