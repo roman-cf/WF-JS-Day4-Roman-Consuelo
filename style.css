@@ -15,3 +15,15 @@ body{
 .nonread{
 	background-color: lightgray;
 }
+img{
+	width: 20vw;
+}
+#books{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#books li{
+	width: 20em;
+}

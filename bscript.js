@@ -134,7 +134,7 @@ for (var i=1; i < booksJson.length; i++){
 	}
 
 
-	let book = document.createElement("div");
+	let book = document.createElement("li");
 		book.id = "bookId"+i;
 		book.className = reader;
 		document.getElementById("books").appendChild(book);
@@ -151,5 +151,8 @@ for (var i=1; i < booksJson.length; i++){
 			bookpic.id = "bookpic"+i;
 			bookpic.src = "./books/"+booksJson[i].picurl;
 			document.getElementById("bookId"+i).appendChild(bookpic);
+		let booksum = document.createElement("p");
+			booksum.textContent = booksJson[i].summary;
+			document.getElementById("bookId"+i).appendChild(booksum);
 
 }
