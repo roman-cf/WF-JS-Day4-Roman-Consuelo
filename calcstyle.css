@@ -1,0 +1,28 @@
+body{
+	font-family: verdana;
+
+}
+
+main{
+
+}
+.display{
+	background-color: #202020;
+	color: white;
+	height: 10em;
+}
+#tastencontainer{
+	display: grid;
+	grid-template-columns: auto  auto auto auto auto;
+}
+
+.speicher, .zahl, .calc, .atribute, .main{
+	border:  1px solid lightgray;
+	text-align: center;
+	padding: 1.5em;
+}
+.speicher{background-color: #C6C6C6;}
+.zahl{background-color: #snow;}
+.calc{background-color: #ECECEC;}
+.atribute{background-color: #D9D9D9;}
+.main{background-color: #E96828;}

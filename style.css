@@ -2,22 +2,15 @@ body{
 	font-family: verdana;
 
 }
-.output{
-	font-weight: bold;
-}
+.output{font-weight: bold;}
 
-.titel{
-	font-weight: bold;
-}
-.read{
-	background-color: lightgreen;
-}
-.nonread{
-	background-color: lightgray;
-}
-img{
-	width: 20vw;
-}
+.titel{	font-weight: bold;}
+
+.read{background-color: lightgreen;}
+.nonread{background-color: lightgray;}
+
+img{width: 20vw;}
+
 #books{
 	list-style: none;
 	display: flex;
@@ -26,4 +19,7 @@ img{
 }
 #books li{
 	width: 20em;
+}
+p{
+	padding:  0.5em;
 }

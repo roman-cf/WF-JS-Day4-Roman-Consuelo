@@ -121,9 +121,6 @@ zelle6.innerHTML = objekt.salary;
 }
 
 //--------------------------------------------------Advanced------------------------------------------------------------
-	//Testausgabe:
-	//document.getElementById("output3").innerHTML = booksJson[1].summary;
-
 
 for (var i=1; i < booksJson.length; i++){
 
@@ -154,5 +151,6 @@ for (var i=1; i < booksJson.length; i++){
 		let booksum = document.createElement("p");
 			booksum.textContent = booksJson[i].summary;
 			document.getElementById("bookId"+i).appendChild(booksum);
-
 }
+
+//--------------------------------------------------Advanced---ENDE---------------------------------------------------------
